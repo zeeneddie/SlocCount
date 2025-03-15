@@ -1,6 +1,6 @@
 from pathlib import Path
-from shutil import rmtree
 
+from git import rmtree
 from structlog import get_logger, stdlib
 
 from .configuration import Configuration
